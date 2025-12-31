@@ -4,10 +4,8 @@ public:
         unordered_map<int,int>m;
         for(int x:nums){
             m[x]++;
-        }
-        for(int y:nums){
-            if(m[y]>=2){
-                return true;
+            if(m[x]>=2){
+                 return true;
             }
         }
         return false;
