@@ -5,7 +5,6 @@ public:
         for(int x:nums){
             m[x]++;
         }
-        int result;
         for(int y:nums){
             if(m[y]>=2){
                 return true;
